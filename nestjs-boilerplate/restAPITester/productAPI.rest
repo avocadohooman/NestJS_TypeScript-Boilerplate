@@ -10,3 +10,14 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/products/ 
+
+###
+GET http://localhost:3000/products/00.21422329384303307
+
+### 
+PATCH http://localhost:3000/products/00.6437110062858655
+Content-Type: application/json
+
+{
+	"price": 10
+}
