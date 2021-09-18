@@ -3,7 +3,7 @@ POST http://localhost:3000/products/
 Content-Type: application/json
 
 {
-	"title": "Amazing catss",
+	"title": "Amazing cats",
 	"description": "A new product",
 	"price": 99
 }

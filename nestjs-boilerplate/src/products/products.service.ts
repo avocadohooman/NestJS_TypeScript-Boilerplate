@@ -15,4 +15,8 @@ export class ProductsService {
 	returnAllProducts() { 
 		return [...this.products];
 	}
+	
+	returnOneProduct(id: string) { 
+		return this.products.find(p => p.id === id);
+	}
 }
